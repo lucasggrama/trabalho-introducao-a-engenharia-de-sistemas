@@ -1,6 +1,5 @@
 import type { QuestaoArray } from "../questao/questao";
 
-/* IMAGENS CORRETAS POR TEMA */
 import c_falha from "../../assets/ciberseguranca/falha.jpg";
 import c_medio from "../../assets/ciberseguranca/medio.jpg";
 import c_sucesso from "../../assets/ciberseguranca/sucesso.jpg";
@@ -13,9 +12,6 @@ import t_falha from "../../assets/transito/falha.jpg";
 import t_medio from "../../assets/transito/medio.jpg";
 import t_sucesso from "../../assets/transito/sucesso.jpg";
 
-/* ========================================================
-   TRANSPORTE PÚBLICO
-======================================================== */
 export const transportePublico: QuestaoArray = {
   titulo: "Transporte Público",
   enunciado:
@@ -135,9 +131,6 @@ export const transportePublico: QuestaoArray = {
   ],
 };
 
-/* ========================================================
-   CIBERSEGURANÇA
-======================================================== */
 export const ciberseguranca: QuestaoArray = {
   titulo: "Cibersegurança",
   enunciado:
@@ -250,9 +243,6 @@ export const ciberseguranca: QuestaoArray = {
   ],
 };
 
-/* ========================================================
-   ENERGIAS SUSTENTÁVEIS
-======================================================== */
 export const energiasSustentaveis: QuestaoArray = {
   titulo: "Energias Sustentáveis",
   enunciado:

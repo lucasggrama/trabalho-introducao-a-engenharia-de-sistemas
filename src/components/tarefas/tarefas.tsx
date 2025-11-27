@@ -2,13 +2,13 @@ import { useState } from "react";
 import Questao from "../questao/questao";
 import type { QuestaoArray } from "../questao/questao";
 import {
+  BotaoVoltar,
   ContainerResultado,
   ConteudoResultado,
   TituloResultado,
 } from "./tarefas.styles";
 
 import { useImageStore } from "../../hooks/imagem/useImagem";
-
 interface TarefasProps {
   questaoInicial: QuestaoArray;
 }
@@ -41,7 +41,10 @@ function Tarefas({ questaoInicial }: TarefasProps) {
       setRespostaClicada(null);
     }
   }
-
+  const refreshPage = () => {
+    window.location.reload();
+  };
+  
   return (
     <>
       {questaoAtual && (
@@ -57,6 +60,7 @@ function Tarefas({ questaoInicial }: TarefasProps) {
         <ContainerResultado>
           <TituloResultado>{status}</TituloResultado>
           <ConteudoResultado>{resultadoFinal}</ConteudoResultado>
+          <BotaoVoltar onClick={refreshPage}>Voltar</BotaoVoltar>
         </ContainerResultado>
       )}
     </>

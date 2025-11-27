@@ -15,7 +15,7 @@ export const AppContainer = styled.div<{ bg: string }>`
   margin: 0;
   padding: 0;
 
-  overflow: hidden; // bloqueia scroll dentro do container
+  overflow: hidden;
 `;
 
 export const BotaoContainer = styled.div`

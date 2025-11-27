@@ -8,7 +8,7 @@ import {
 } from "./questao.styles";
 
 import imagem from "../../assets/perguntas.jpg";
-import { useImageStore } from "../../hooks/imagem/useImagem";  // ⬅️ mover pra cima
+import { useImageStore } from "../../hooks/imagem/useImagem";
 import { useEffect } from "react";
 
 export type QuestaoArray = {
@@ -31,7 +31,7 @@ function Questao({
   onResponder,
 }: QuestaoProps) {
 
-  const { setImageUrl } = useImageStore();   // ⬅️ AGORA SIM: dentro do componente
+  const { setImageUrl } = useImageStore();  
 
   useEffect(() => {
     setImageUrl(imagem);

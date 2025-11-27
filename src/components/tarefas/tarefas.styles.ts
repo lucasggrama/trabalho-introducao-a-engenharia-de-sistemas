@@ -6,6 +6,22 @@ export const TarefasContainer = styled.div`
   gap: 16px;
 `;
 
+export const BotaoVoltar = styled.button`
+  background: rgba(58, 73, 96);
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: #ffffff;
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  &:hover {
+    background: rgba(48, 63, 86);
+  }
+`;
+
 export const ContainerResultado = styled.div`
 background: rgba(58, 73, 96);
   border-radius: 10px;
@@ -15,7 +31,6 @@ background: rgba(58, 73, 96);
   right: 24px;
   margin: 0;
   margin-left: initial; 
-  // Mantém as outras propriedades de layout e tamanho
   max-width: 340px;
   display: flex;
   flex-direction: column;
