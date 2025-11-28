@@ -19,7 +19,7 @@ export const transportePublico: QuestaoArray = {
   respostas: [
     {
       titulo: "a",
-      conteudo: "Adicionar semáforos inteligentes",
+      conteudo: "Adiciona semáforos inteligentes",
       proximaQuestao: {
         titulo: "Semáforos Inteligentes",
         enunciado:
@@ -56,7 +56,7 @@ export const transportePublico: QuestaoArray = {
 
     {
       titulo: "b",
-      conteudo: "Criar um aplicativo para transporte público",
+      conteudo: "Cria um aplicativo para transporte público",
       proximaQuestao: {
         titulo: "Aplicativo de Transporte",
         enunciado:
@@ -93,7 +93,7 @@ export const transportePublico: QuestaoArray = {
 
     {
       titulo: "c",
-      conteudo: "Aumentar a frota de ônibus",
+      conteudo: "Aumenta a frota de ônibus",
       proximaQuestao: {
         titulo: "Aumento da Frota",
         enunciado:
@@ -175,7 +175,7 @@ export const ciberseguranca: QuestaoArray = {
 
     {
       titulo: "b",
-      conteudo: "Criar uma campanha de conscientização",
+      conteudo: "Cria uma campanha de conscientização",
       proximaQuestao: {
         titulo: "Campanha de Conscientização",
         enunciado: "Posts e palestras têm pouco engajamento. O que você faz?",
@@ -208,15 +208,15 @@ export const ciberseguranca: QuestaoArray = {
 
     {
       titulo: "c",
-      conteudo: "Criar um antivírus para o site",
+      conteudo: "Cria um software para detecção de fraudes para o site",
       proximaQuestao: {
         titulo: "Antivírus do Site",
         enunciado:
-          "O antivírus bloqueia arquivos suspeitos, mas atrapalha os usuários.",
+          "O software bloqueia arquivos suspeitos, mas atrapalha os usuários.",
         respostas: [
           {
             titulo: "a",
-            conteudo: "Ajusta a sensibilidade do antivírus",
+            conteudo: "Ajusta a sensibilidade do software",
             resposta: "Você equilibrou segurança e desempenho.",
             imagem: c_sucesso,
             status: "Sucesso!",
@@ -284,7 +284,7 @@ export const energiasSustentaveis: QuestaoArray = {
 
     {
       titulo: "b",
-      conteudo: "Implementar sistema de monitoramento ambiental",
+      conteudo: "Implementa um sistema de monitoramento ambiental",
       proximaQuestao: {
         titulo: "Monitoramento Ambiental",
         enunciado: "Sensores começam a dar leituras inesperadas. O que fazer?",
@@ -316,7 +316,7 @@ export const energiasSustentaveis: QuestaoArray = {
 
     {
       titulo: "c",
-      conteudo: "Criar campanhas de consumo consciente",
+      conteudo: "Cria campanhas de consumo consciente",
       proximaQuestao: {
         titulo: "Campanhas de Consumo",
         enunciado: "Pessoas acham as campanhas chatas. O que fazer?",
